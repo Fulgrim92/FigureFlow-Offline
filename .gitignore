@@ -1,0 +1,28 @@
+# Confidential figures and generated exports stay local
+*.pdf
+!examples/Demo_Figure_SYNTHETIC.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.docx
+*.pptx
+*.xlsx
+*.csv
+*.zip
+
+# Build/runtime outputs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.spec
+FigureFlow_Exports/
+Exports/
+*.log
+.DS_Store
+Thumbs.db
